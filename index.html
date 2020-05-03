@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 2</title>
+    <style>
+        table, th, td {
+          border: 2px solid brown;
+          border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <caption>Client info</caption>
+    <tr>
+      <th>First name</th>
+      <th>Last name</th>
+      <th>Phone number</th>
+      <th>E-mail</th>
+    </tr>
+    <tr>
+      <td>Kinga</td>
+      <td>Hellman</td>
+      <td>48567890235</td>
+      <td>hellman.kinga@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Ian</td>
+      <td>Fisher</td>
+      <td>445783927502</td>
+      <td>fisher@yahoo.com</td>
+    </tr>
+    <tr>
+        <td>Milan</td>
+        <td>Skobach</td>
+        <td>3445616456</td>
+        <td>sonechko@op.pl</td>
+      </tr>
+      <tr>
+        <td>Millisenta</td>
+        <td>Symon</td>
+        <td>38094655661</td>
+        <td>milli@wp.pl</td>
+      </tr>
+  </table>
+
+
+<p>Enter your data:</p>
+<form>
+    <label for="fname">first name:</label><br>
+    <input type="text" name="fname"><br>
+    <label for="lname">last name:</label><br>
+    <input type="text" name="lname"><br><br>
+    <input type="submit" value="Enter">
+</form>
+
+<p>Enter your gender:</p>
+<form>
+    <input type="radio" name="gender" value="male" checked>
+    <label for="male">Male</label><br>
+    <input type="radio" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" name="gender" value="other">
+    <label for="other">Other</label>
+</form>
+
+
+<p>Choose your language:</p>
+<form>
+    <input type="checkbox" name="Ukrainian" value="Ukrainian">
+    <label for="Ukrainian">Ukrainian</label><br>
+    <input type="checkbox" name="English" value="English">
+    <label for="English">English</label><br>
+    <input type="checkbox" name="German" value="German">
+    <label for="German"></label>German<br><br>
+    <input type="submit" value="Enter">
+  </form> 
+
+
+<p>Write something:</p>
+<form>
+    <textarea placeholder="input text"></textarea>
+</form>
+
+
+<form>
+    <label for="city">Choose your city:</label>
+    <select name="city">
+        <option value="any city" selected disabled>Any city </option>
+        <option value="Lviv">Lviv</option>
+        <option value="Kyiv">Kyiv</option>
+        <option value="Odesa">Odesa</option>
+        <option value="Lutsk">Lutsk</option>
+    </select>
+  </form>
+
+</body>
+</html>
