@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework 2</title>
     <style>
-        table, th, td {
+        table, td {
           border: 2px solid brown;
           border-collapse: collapse;
+        }
+        input, select {
+          margin: 3px;
         }
     </style>
 </head>
@@ -51,9 +54,9 @@
 <p>Enter your data:</p>
 <form>
     <label for="fname">first name:</label><br>
-    <input type="text" name="fname"><br>
+    <input placeholder="Input your name" type="text" name="fname" required=""><br>
     <label for="lname">last name:</label><br>
-    <input type="text" name="lname"><br><br>
+    <input placeholder="Input your last name" type="text" name="lname" required=""><br>
     <input type="submit" value="Enter">
 </form>
 
@@ -70,12 +73,12 @@
 
 <p>Choose your language:</p>
 <form>
-    <input type="checkbox" name="Ukrainian" value="Ukrainian">
-    <label for="Ukrainian">Ukrainian</label><br>
-    <input type="checkbox" name="English" value="English">
-    <label for="English">English</label><br>
-    <input type="checkbox" name="German" value="German">
-    <label for="German"></label>German<br><br>
+    <input type="checkbox" id="Ukrainian" name="Ukrainian" value="Ukrainian">
+    <label for="Ukrainian"><span>Ukrainian</span></label><br>
+    <input type="checkbox" id="English" name="English" value="English">
+    <label for="English"><span>English</span></label><br>
+    <input type="checkbox" id="German" name="German" value="German">
+    <label for="German"><span>German</span></label><br>
     <input type="submit" value="Enter">
   </form> 
 
