@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,9 +54,9 @@
 <p>Enter your data:</p>
 <form>
     <label for="fname">first name:</label><br>
-    <input placeholder="Input your name" type="text" name="fname" required=""><br>
+    <input placeholder="Input your name" type="text" id="fname" name="fname" required=""><br>
     <label for="lname">last name:</label><br>
-    <input placeholder="Input your last name" type="text" name="lname" required=""><br>
+    <input placeholder="Input your last name" type="text" id="lname" name="lname" required=""><br>
     <input type="submit" value="Enter">
 </form>
 
@@ -91,7 +91,7 @@
 
 <form>
     <label for="city">Choose your city:</label>
-    <select name="city">
+    <select id="city" name="city">
         <option value="any city" selected disabled>Any city </option>
         <option value="Lviv">Lviv</option>
         <option value="Kyiv">Kyiv</option>
